@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAV BAR *//*//////////////////////////////////////////////////////////*/
+
+nav {
+    position: sticky;
+    top: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:bisque;
+}
+
+nav div img{
+    border-radius: 50%;
+}
+
+nav div{
+    margin-left: 40px;
+
+}
+
+nav ul{
+    margin-right: 40px;
+    font-size: 1em;
+}
+
+
+/* HEADER *//*//////////////////////////////////////////////////////////*/
+
+header h1{
+    height: 250px;
+    background-image: url('/img/wp2242972-portugal-wallpapers.jpg');
+    background-position: 0 -400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 120px;
+    color: aliceblue;
+    font-size: 3em;
+}
+
+
+
+/* MAIN *//*//////////////////////////////////////////////////////////*/
